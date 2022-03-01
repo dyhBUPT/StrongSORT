@@ -17,42 +17,37 @@ Existing Multi-Object Tracking (MOT) methods can be roughly classified as tracki
 
 ![comparison](assets/comparison.png)
 
-## Visualization
-
-![MOT17-01](assets/MOT17-01.gif)
-
-![MOT17-03](assets/MOT17-03.gif)
-
-![MOT20-06](../../files/Typoral/_resources/MOT20-06-1646120237391.gif)
-
 ## Data&Model Preparation
 
 1. Download MOT17 & MOT20 from the [official website](https://motchallenge.net/).
 
-   > path_to_dataset/MOTChallenge
-   > ├── MOT17
-   > 	│   ├── test
-   > 	│   └── train
-   > └── MOT20
-   >     ├── test
-   >     └── train
+   ```
+   path_to_dataset/MOTChallenge
+   ├── MOT17
+   	│   ├── test
+   	│   └── train
+   └── MOT20
+       ├── test
+       └── train
+   ```
 
 2. Download our prepared [data](https://drive.google.com/drive/folders/1Zk6TaSJPbpnqbz1w4kfhkKFCEzQbjfp_?usp=sharing)
 
-   > path_to_dataspace
-   >
-   > ├── AFLink_epoch20.pth  # checkpoints for AFLink model
-   > ├── MOT17_ECC_test.json  # CMC model
-   > ├── MOT17_ECC_val.json  # CMC model
-   > ├── MOT17_test_YOLOX+BoT  # detections + features
-   > ├── MOT17_test_YOLOX+simpleCNN  # detections + features
-   > ├── MOT17_trainval_GT_for_AFLink  # GT to train and eval AFLink model
-   > ├── MOT17_val_GT_for_TrackEval  # GT to eval the tracking results.
-   > ├── MOT17_val_YOLOX+BoT  # detections + features
-   > ├── MOT17_val_YOLOX+simpleCNN  # detections + features
-   > ├── MOT20_ECC_test.json  # CMC model
-   > ├── MOT20_test_YOLOX+BoT  # detections + features
-   > ├── MOT20_test_YOLOX+simpleCNN  # detections + features
+   ```
+   path_to_dataspace
+   ├── AFLink_epoch20.pth  # checkpoints for AFLink model
+   ├── MOT17_ECC_test.json  # CMC model
+   ├── MOT17_ECC_val.json  # CMC model
+   ├── MOT17_test_YOLOX+BoT  # detections + features
+   ├── MOT17_test_YOLOX+simpleCNN  # detections + features
+   ├── MOT17_trainval_GT_for_AFLink  # GT to train and eval AFLink model
+   ├── MOT17_val_GT_for_TrackEval  # GT to eval the tracking results.
+   ├── MOT17_val_YOLOX+BoT  # detections + features
+   ├── MOT17_val_YOLOX+simpleCNN  # detections + features
+   ├── MOT20_ECC_test.json  # CMC model
+   ├── MOT20_test_YOLOX+BoT  # detections + features
+   ├── MOT20_test_YOLOX+simpleCNN  # detections + features
+   ```
 
 3. Set the paths of your dataset and other files in "opts.py", i.e., root_dataset, path_AFLink, dir_save, dir_dets, path_ECC. 
 
