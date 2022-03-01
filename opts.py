@@ -94,10 +94,6 @@ class opts:
             help='Gaussian-smoothed Interpolation'
         )
         self.parser.add_argument(
-            '--path_ECC',
-            default='/data/dyh/results/StrongSORT_Git/MOT17_ECC_val.json'
-        )
-        self.parser.add_argument(
             '--root_dataset',
             default='/data/dyh/data/MOTChallenge'
         )
@@ -128,10 +124,10 @@ class opts:
         opt.min_detection_height = 0
         if opt.BoT:
             opt.max_cosine_distance = 0.4
-            opt.dir_dets = '/data/dyh/results/StrongSORT_Git/MOT17_val_YOLOX+BoT'
+            opt.dir_dets = '/data/dyh/results/StrongSORT_Git/{}_{}_YOLOX+BoT'.format(opt.dataset, opt.mode)
         else:
             opt.max_cosine_distance = 0.3
-            opt.dir_dets = '/data/dyh/results/StrongSORT_Git/MOT17_val_YOLOX+simpleCNN'
+            opt.dir_dets = '/data/dyh/results/StrongSORT_Git/{}_{}_YOLOX+simpleCNN'.format(opt.dataset, opt.mode)
         if opt.MC:
             opt.max_cosine_distance += 0.05
         if opt.EMA:
@@ -139,7 +135,8 @@ class opts:
         else:
             opt.nn_budget = 100
         if opt.ECC:
-            opt.ecc = json.load(open(opt.path_ECC))
+            path_ECC = '/data/dyh/results/StrongSORT_Git/{}_ECC_{}.json'.format(opt.dataset, opt.mode)
+            opt.ecc = json.load(open(path_ECC))
         opt.sequences = data[opt.dataset][opt.mode]
         opt.dir_dataset = join(
             opt.root_dataset,
