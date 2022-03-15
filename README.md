@@ -92,7 +92,7 @@ Existing Multi-Object Tracking (MOT) methods can be roughly classified as tracki
 
 - To evaluate the tracking results, we recommend using the [official code](https://github.com/JonathonLuiten/TrackEval).
 - You can also try to apply AFLink and GSI to other trackers. 
-- Tuning the hyperparameters carefully would brings better performance.
+- Tuning the hyperparameters carefully would bring better performance.
 
 ## Citation
 
