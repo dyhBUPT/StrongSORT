@@ -4,7 +4,7 @@
 
 Just run the "others/ecc.py".
 
-You should modify the path in line 150 and 178.
+You should modify the path in line [150](https://github.com/dyhBUPT/StrongSORT/blob/5c2d1d0ba22bf0d0440e217c60554e5e56f93ac0/others/ecc.py#L150) and [178](https://github.com/dyhBUPT/StrongSORT/blob/5c2d1d0ba22bf0d0440e217c60554e5e56f93ac0/others/ecc.py#L178).
 
 ## 2. How to generate detections?
 
