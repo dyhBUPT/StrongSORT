@@ -96,6 +96,10 @@ Note: If you want to generate ECC results, detections and features by yourself, 
 - You can also try to apply AFLink and GSI to other trackers. 
 - Tuning the hyperparameters carefully would bring better performance.
 
+## TODO
+
+- Evaluation on the public detections.
+
 ## Citation
 
 ```
