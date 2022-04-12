@@ -57,6 +57,7 @@ Note: If you want to generate ECC results, detections and features by yourself, 
 
 - Python3.6
 - torch 1.7.0 + torchvision 0.8.0
+- requirements.txt
 
 ## Tracking
 
