@@ -100,6 +100,7 @@ Note: If you want to generate ECC results, detections and features by yourself, 
 ## TODO
 
 - Evaluation on the public detections.
+- Training BoT on the MOT datasets.
 
 ## Citation
 
