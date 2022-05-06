@@ -101,7 +101,7 @@ Please prepare the code and environment of TrackEval first and link the download
 ln -s xxx/MOT17-train xxx/TrackEval/data/gt/mot_challenge
 ```
 
-We also provide some results in the baidu disk, in the folder "MOT17-val_results".
+We also provide some tracking results in the baidu disk, in the folder "MOT17-val_results".
 You can download them, cd to the TrackEval dir and try to evaluate the StrongSORT++ as:
 ```shell
 python scripts/run_mot_challenge.py \
