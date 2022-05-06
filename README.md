@@ -91,16 +91,44 @@ Note: If you want to generate ECC results, detections and features by yourself, 
   python strong_sort.py MOT20 val --BoT --ECC --NSA --EMA --MC --woC --AFLink --GSI
   ```
 
+## Evaluation
+
+We use the official code [TrackEval](https://github.com/JonathonLuiten/TrackEval) to evaluate the results on the MOT17-val set.
+To make it easier for you to get started, we provide the MOT17-val annotations in the [baidu disk](https://pan.baidu.com/s/1EtBbo-12xhjsqW5x-dYX8A?pwd=sort) with code "sort", in the folder "MOT17-train".
+
+Please prepare the code and environment of TrackEval first and link the downloaded folder "MOT17-train" with folder "data/gt/mot_challenge" of TrackEval as:
+```shell
+ln -s xxx/MOT17-train xxx/TrackEval/data/gt/mot_challenge
+```
+
+We also provide some results in the baidu disk, in the folder "MOT17-val_results".
+You can download them, cd to the TrackEval dir and try to evaluate the StrongSORT++ as:
+```shell
+python scripts/run_mot_challenge.py \
+--BENCHMARK MOT17 \
+--SPLIT_TO_EVAL train \
+--TRACKERS_TO_EVAL xxx/MOT17-val_results/StrongSORT++ \
+--TRACKER_SUB_FOLDER '' \
+--METRICS HOTA CLEAR Identity VACE \
+--USE_PARALLEL False \
+--NUM_PARALLEL_CORES 1 \
+--GT_LOC_FORMAT '{gt_folder}/{seq}/gt/gt_val_half_v2.txt' \
+--OUTPUT_SUMMARY False \
+--OUTPUT_EMPTY_CLASSES False \
+--OUTPUT_DETAILED False \
+--PLOT_CURVES False
+```
+
 ## Note
 
-- To evaluate the tracking results, we recommend using the [official code](https://github.com/JonathonLuiten/TrackEval).
-- You can also try to apply AFLink and GSI to other trackers. 
+- You can also try to apply AFLink and GSI to other trackers. We would be glad if you could tell us your new results.
 - Tuning the hyperparameters carefully would bring better performance.
 
 ## TODO
 
 - Evaluation on the public detections.
 - Training BoT on the MOT datasets.
+- More optimization tricks.
 
 ## Citation
 
