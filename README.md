@@ -5,7 +5,7 @@
 
 >**[StrongSORT: Make DeepSORT Great Again](https://arxiv.org/abs/2202.13514)**
 >
->Yunhao Du, Yang Song, Bo Yang, Yanyun Zhao
+>Yunhao Du, Yang Song, Bo Yang, Yanyun Zhao, Fei Su
 >
 >[*arxiv 2202.13514*](https://arxiv.org/abs/2202.13514)
 
