@@ -77,3 +77,14 @@ Then you can use it to extract detection features. Here you need to write a simp
 
 We also give an example code in "ohters/generate_detections.py" for reference only, which takes TXT format detections file as input. 
 
+## 4. Custom Dataset.
+
+To run StrongSORT on the custom dataset, we provide a coarse guide as follows:
+
+- Prepare your dataset as the format of M0TChallenge, like MOT17.
+
+- Prepare the StrongSORT referring to the README. Please remember to modify the data path in "opt.py". Then, adding the data infomation of your dataset in the "data" (dict) in "opt.py".
+
+- Prepare the results of detections、features and ECC results(optional) referring to the item 1, 2, 3.
+
+Then, you can try to run the StrongSORT referring to the README. Please Note that the "ECC" is not nessary if there is no movements of cameras in your dataset.
