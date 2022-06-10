@@ -1,6 +1,10 @@
 # StrongSORT
 **StrongSORT: Make DeepSORT Great Again**
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strongsort-make-deepsort-great-again/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=strongsort-make-deepsort-great-again)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strongsort-make-deepsort-great-again/multi-object-tracking-on-mot20-1)](https://paperswithcode.com/sota/multi-object-tracking-on-mot20-1?p=strongsort-make-deepsort-great-again)
+
 ![MOTA-IDF1-HOTA](assets/MOTA-IDF1-HOTA.png)
 
 >**[StrongSORT: Make DeepSORT Great Again](https://arxiv.org/abs/2202.13514)**
