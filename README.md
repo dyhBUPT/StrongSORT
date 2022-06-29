@@ -67,9 +67,21 @@ Note: If you want to generate ECC results, detections and features by yourself, 
 
 ## Requirements
 
-- Python3.6
-- torch 1.7.0 + torchvision 0.8.0
-- requirements.txt
+- pytorch
+- opencv
+- scipy
+- sklearn
+
+For example, we have tested the following commands to create an environment for StrongSORT:
+
+```shell
+conda create -n strongsort python=3.8 -y
+conda activate strongsort
+pip3 install torch torchvision torchaudio
+pip install opencv-python
+pip install scipy
+pip install scikit-learn==0.19.2
+```
 
 ## Tracking
 
