@@ -15,7 +15,7 @@
 
 ## News
 
-- Ablation study on MOT16 is presented on [issue#33](https://github.com/dyhBUPT/StrongSORT/issues/33). Thanks [mikel-brostrom](https://github.com/mikel-brostrom) for sharing!
+- Ablation study on MOT16 is presented on [issue#33](https://github.com/dyhBUPT/StrongSORT/issues/33). Thanks [mikel-brostrom](https://github.com/mikel-brostrom) for sharing! More details can be seen in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.
 
 ## Star History
 
