@@ -142,6 +142,7 @@ python scripts/run_mot_challenge.py \
 --OUTPUT_DETAILED False \
 --PLOT_CURVES False
 ```
+Note: you may also need to prepare the `SEQMAPS` to specify the sequences to be evaluated.
 
 ## Note
 
