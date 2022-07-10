@@ -112,7 +112,7 @@ pip install scikit-learn==0.19.2
 - **Run StrongSORT++ on MOT20-test**
 
   ```shell
-  python strong_sort.py MOT20 val --BoT --ECC --NSA --EMA --MC --woC --AFLink --GSI
+  python strong_sort.py MOT20 test --BoT --ECC --NSA --EMA --MC --woC --AFLink --GSI
   ```
 
 ## Evaluation
