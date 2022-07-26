@@ -1,6 +1,8 @@
 # StrongSORT
 **StrongSORT: Make DeepSORT Great Again**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2202.13514-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strongsort-make-deepsort-great-again/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=strongsort-make-deepsort-great-again)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strongsort-make-deepsort-great-again/multi-object-tracking-on-mot20-1)](https://paperswithcode.com/sota/multi-object-tracking-on-mot20-1?p=strongsort-make-deepsort-great-again)
