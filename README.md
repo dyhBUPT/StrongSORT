@@ -160,11 +160,11 @@ Note: you may also need to prepare the `SEQMAPS` to specify the sequences to be 
 ## Citation
 
 ```
-@misc{2202.13514,
-Author = {Yunhao Du and Yang Song and Bo Yang and Yanyun Zhao},
-Title = {StrongSORT: Make DeepSORT Great Again},
-Year = {2022},
-Eprint = {arXiv:2202.13514},
+@article{du2022strongsort,
+  title={Strongsort: Make deepsort great again},
+  author={Du, Yunhao and Song, Yang and Yang, Bo and Zhao, Yanyun},
+  journal={arXiv preprint arXiv:2202.13514},
+  year={2022}
 }
 ```
 You can also consider reading and citing our related work, GIAOTracker, which won the 2nd place in the VisDrone2021 MOT Challenge of ICCV Workshop:
