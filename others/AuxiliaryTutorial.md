@@ -81,7 +81,7 @@ We also give an example code in "ohters/generate_detections.py" for reference on
 
 To run StrongSORT on the custom dataset, we provide a coarse guide as follows:
 
-- Prepare your dataset as the format of M0TChallenge, like MOT17.
+- Prepare your dataset as the format of MOTChallenge, like MOT17.
 
 - Prepare the StrongSORT referring to the README. Please remember to modify the data path in "opt.py". Then, adding the data infomation of your dataset in the "data" (dict) in "opt.py".
 
