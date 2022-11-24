@@ -185,3 +185,10 @@ You can also consider reading and citing our related work, GIAOTracker, which wo
 
 A large part of the codes, ideas and results are borrowed from [DeepSORT](https://github.com/nwojke/deep_sort), [JDE](https://github.com/Zhongdao/Towards-Realtime-MOT), [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) and [ByteTrack](https://github.com/ifzhang/ByteTrack). Thanks for their excellent work!
 
+
+### &#8627; Stargazers
+[![Stargazers repo roster for @dyhBUPT/StrongSORT](https://reporoster.com/stars/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/stargazers)
+
+### &#8627; Forkers
+[![Forkers repo roster for @dyhBUPT/StrongSORT](https://reporoster.com/forks/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/network/members)
+
