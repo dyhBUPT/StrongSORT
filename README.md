@@ -17,7 +17,7 @@
 
 ## News
 
-- [2022.06.10] "YOLO+OSNet+StrongSORT" is supported in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet, which is a flexible repo.
+- [2022.06.10] "YOLO+OSNet+StrongSORT" is supported in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.
 
 - [2022.08.19] StrongSORT has been supported in [mmtracking](https://github.com/open-mmlab/mmtracking)! More details in [branch dev-1.x](https://github.com/open-mmlab/mmtracking/tree/dev-1.x/configs/mot/strongsort).
 
