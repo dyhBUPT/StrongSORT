@@ -17,9 +17,11 @@
 
 ## News
 
-- Ablation study on MOT16 is presented on [issue#33](https://github.com/dyhBUPT/StrongSORT/issues/33). Thanks [mikel-brostrom](https://github.com/mikel-brostrom) for sharing! More details can be seen in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.
+- [2022.06.10] "YOLO+OSNet+StrongSORT" is supported in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet, which is a flexible repo.
 
 - [2022.08.19] StrongSORT has been supported in [mmtracking](https://github.com/open-mmlab/mmtracking)! More details in [branch dev-1.x](https://github.com/open-mmlab/mmtracking/tree/dev-1.x/configs/mot/strongsort).
+
+- [2022.11.30] The packaged version of StrongSORT is supported (https://pypi.org/project/strongsort/). More details in https://github.com/kadirnar/strongsort-pip.
 
 ## Star History
 
