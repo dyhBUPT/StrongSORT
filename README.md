@@ -19,11 +19,11 @@
 
 - [2022.06.10] "YOLO+OSNet+StrongSORT" is supported in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.
 
-- [2022.08.19] StrongSORT has been supported in [mmtracking](https://github.com/open-mmlab/mmtracking)! More details in [branch dev-1.x](https://github.com/open-mmlab/mmtracking/tree/dev-1.x/configs/mot/strongsort).
+- [2022.08.19] StrongSORT has been supported in [mmtracking](https://github.com/open-mmlab/mmtracking). More details in [branch dev-1.x](https://github.com/open-mmlab/mmtracking/tree/dev-1.x/configs/mot/strongsort).
 
 - [2022.11.30] The packaged version of StrongSORT is supported (https://pypi.org/project/strongsort/). More details in https://github.com/kadirnar/strongsort-pip.
 
-- [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by TMM (StrongSORT: Make DeepSORT Great Again).
+- [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by TMM (IEEE Transactions on Multimedia).
 
 ## Star History
 
