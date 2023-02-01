@@ -9,12 +9,6 @@
 
 ![MOTA-IDF1-HOTA](assets/MOTA-IDF1-HOTA.png)
 
->**[StrongSORT: Make DeepSORT Great Again](https://arxiv.org/abs/2202.13514)**
->
->Yunhao Du, Yang Song, Bo Yang, Yanyun Zhao, Fei Su
->
->[*arxiv 2202.13514*](https://arxiv.org/abs/2202.13514)
-
 ## News
 
 - [2022.06.10] "YOLO+OSNet+StrongSORT" is supported in https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.
