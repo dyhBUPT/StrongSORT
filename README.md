@@ -1,7 +1,7 @@
 # StrongSORT
 **StrongSORT: Make DeepSORT Great Again**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2202.13514-<COLOR>.svg)](https://arxiv.org/abs/2202.13514) [![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
+[![arXiv](https://img.shields.io/badge/arXiv-2202.13514-<COLOR>.svg)](https://arxiv.org/abs/2202.13514) [![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/licenses/GPL-3.0) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strongsort-make-deepsort-great-again/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=strongsort-make-deepsort-great-again)
 
@@ -22,6 +22,8 @@
 - [2022.08.19] StrongSORT has been supported in [mmtracking](https://github.com/open-mmlab/mmtracking)! More details in [branch dev-1.x](https://github.com/open-mmlab/mmtracking/tree/dev-1.x/configs/mot/strongsort).
 
 - [2022.11.30] The packaged version of StrongSORT is supported (https://pypi.org/project/strongsort/). More details in https://github.com/kadirnar/strongsort-pip.
+
+- [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by TMM (StrongSORT: Make DeepSORT Great Again).
 
 ## Star History
 
