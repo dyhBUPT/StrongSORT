@@ -160,14 +160,15 @@ Note: you may also need to prepare the `SEQMAPS` to specify the sequences to be 
 ## Citation
 
 ```
-@article{du2022strongsort,
+@article{du2023strongsort,
   title={Strongsort: Make deepsort great again},
-  author={Du, Yunhao and Song, Yang and Yang, Bo and Zhao, Yanyun},
-  journal={arXiv preprint arXiv:2202.13514},
-  year={2022}
+  author={Du, Yunhao and Zhao, Zhicheng and Song, Yang and Zhao, Yanyun and Su, Fei and Gong, Tao and Meng, Hongying},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  publisher={IEEE}
 }
 ```
-You can also consider reading and citing our related work, GIAOTracker, which won the 2nd place in the VisDrone2021 MOT Challenge of ICCV Workshop:
+You can also consider reading and citing our related work, [GIAOTracker](https://github.com/dyhBUPT/GIAOTracker), which won the 2nd place in the VisDrone2021 MOT Challenge of ICCV Workshop:
 ```
 @InProceedings{Du_2021_ICCV,
     author    = {Du, Yunhao and Wan, Junfeng and Zhao, Yanyun and Zhang, Binyu and Tong, Zhihang and Dong, Junhao},
