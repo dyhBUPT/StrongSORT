@@ -65,7 +65,7 @@ Existing Multi-Object Tracking (MOT) methods can be roughly classified as tracki
 
 3. Set the paths of your dataset and other files in "opts.py", i.e., root_dataset, path_AFLink, dir_save, dir_dets, path_ECC. 
 
-Note: If you want to generate ECC results, detections and features by yourself, please refer to the [Auxiliary tutorial](https://github.com/dyhBUPT/StrongSORT/blob/d59ce65ca95cb731b620e6f7965ab84336d57496/others/AuxiliaryTutorial.md).
+Note: If you want to generate ECC results, detections and features by yourself, please refer to the [Auxiliary tutorial](https://github.com/dyhBUPT/StrongSORT/blob/master/others/AuxiliaryTutorial.md).
 
 ## Requirements
 
