@@ -17,7 +17,7 @@
 
 - [2022.11.30] The packaged version of StrongSORT is supported (https://pypi.org/project/strongsort/). More details in https://github.com/kadirnar/strongsort-pip.
 
-- [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by TMM (IEEE Transactions on Multimedia).
+- [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by [TMM (IEEE Transactions on Multimedia)](https://ieeexplore.ieee.org/document/10032656).
 
 ## Star History
 
