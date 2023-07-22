@@ -19,6 +19,8 @@
 
 - [2023.01.23] The paper "StrongSORT: Make DeepSORT Great Again" is accepted by [TMM (IEEE Transactions on Multimedia)](https://ieeexplore.ieee.org/document/10032656).
 
+- [2023.06.23] StrongSORT available in [BoxMOT](https://pypi.org/project/boxmot]) as a pluggable component for object detectors. More details [here](https://github.com/mikel-brostrom/yolo_tracking).
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=dyhBUPT/StrongSORT&type=Date)](https://star-history.com/#dyhBUPT/StrongSORT&Date)
