@@ -122,14 +122,14 @@ pip install scikit-learn==0.19.2
 ## Evaluation
 
 We use the official code [TrackEval](https://github.com/JonathonLuiten/TrackEval) to evaluate the results on the MOT17-val set.
-To make it easier for you to get started, we provide the MOT17-val annotations in the [baidu disk](https://pan.baidu.com/s/1EtBbo-12xhjsqW5x-dYX8A?pwd=sort) with code "sort", in the folder "MOT17-train".
+To make it easier for you to get started, we provide the MOT17-val annotations on [Google](https://drive.google.com/drive/folders/1Zk6TaSJPbpnqbz1w4kfhkKFCEzQbjfp_?usp=sharing) & [Baidu](https://pan.baidu.com/s/1EtBbo-12xhjsqW5x-dYX8A?pwd=sort) disk, in the folder "MOT17-train".
 
 Please prepare the code and environment of TrackEval first and link the downloaded folder "MOT17-train" with folder "data/gt/mot_challenge" of TrackEval as:
 ```shell
 ln -s xxx/MOT17-train xxx/TrackEval/data/gt/mot_challenge
 ```
 
-We also provide some tracking results in the baidu disk, in the folder "MOT17-val_results".
+We also provide some tracking results on the disk, in the folder "MOT17-val_results".
 You can download them, cd to the TrackEval dir and try to evaluate the StrongSORT++ as:
 ```shell
 python scripts/run_mot_challenge.py \
