@@ -188,8 +188,8 @@ A large part of the codes, ideas and results are borrowed from [DeepSORT](https:
 
 
 ### &#8627; Stargazers
-[![Stargazers repo roster for @dyhBUPT/StrongSORT](https://reporoster.com/stars/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/stargazers)
+[![Stargazers repo roster for @dyhBUPT/StrongSORT](http://reporoster.com/stars/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/stargazers)
 
 ### &#8627; Forkers
-[![Forkers repo roster for @dyhBUPT/StrongSORT](https://reporoster.com/forks/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/network/members)
+[![Forkers repo roster for @dyhBUPT/StrongSORT](http://reporoster.com/forks/dyhBUPT/StrongSORT)](https://github.com/dyhBUPT/StrongSORT/network/members)
 
