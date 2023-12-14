@@ -153,12 +153,6 @@ Note: you may also need to prepare the `SEQMAPS` to specify the sequences to be 
 - You can also try to apply AFLink and GSI to other trackers. We would be glad if you could tell us your new results.
 - Tuning the hyperparameters carefully would bring better performance.
 
-## TODO
-
-- Evaluation on the public detections.
-- Training BoT on the MOT datasets.
-- More optimization tricks.
-
 ## Citation
 
 ```
